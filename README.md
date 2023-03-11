@@ -1,2 +1,2 @@
 # chatmgf.com
-chatmgf ptoject implemented with streamlit
+chatmgf project implemented with streamlit
