@@ -1,1 +1,5 @@
 streamlit
+langchain
+openai
+unstructured
+unstructured_inference
