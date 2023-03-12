@@ -14,5 +14,4 @@ st.title('Chat:blue[MFG]')
 
 with st.container():
     st.session_state.answer = st.session_state.answer + [st.text_input('question', label_visibility='hidden', placeholder='Pergunta-me algo...')]
-    for each in st.session_state.answer:
-        st.write(each)
+    st.write(st.session_state.answer)
