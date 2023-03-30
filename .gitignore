@@ -1,1 +1,5 @@
 .env
+scripts/old_scrapped_data
+scripts/old_scripts
+data
+other
