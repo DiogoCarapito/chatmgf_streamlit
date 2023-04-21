@@ -24,7 +24,7 @@ user_input = st.text_input("Pergunta-me algo", "")
 if st.button("Send"):
     api_response = get_api_response(user_input)
     st.session_state.conversation_history.append(("You", user_input))
-    st.session_state.conversation_history.append(("Chatbot", api_response))
+    st.session_state.conversation_history.append(("ChatMGF", api_response[0]))
 for speaker, text in st.session_state.conversation_history:
     st.text(f"{speaker}: {text}")
 
