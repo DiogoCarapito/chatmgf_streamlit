@@ -13,8 +13,8 @@ def get_api_response(input_text):
 
 
 # Define Streamlit app
-#st.title('Chat:blue[MFG]')
-st.title(':blue[MFG]')
+st.title('Chat:blue[MFG]')
+
 conversation_history = []
 
 if "conversation_history" not in st.session_state:
