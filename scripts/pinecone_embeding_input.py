@@ -15,7 +15,7 @@ PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
 print('api loaded')
 
 # read csv file
-df = pd.read_csv('scripts/scrapped_data/Recomendações_choosing_wisely_30-03-2023.csv')
+df = pd.read_csv('scrapped_data/Recomendações_choosing_wisely_30-03-2023.csv')
 print('csv file read')
 
 #print(df[0:4])
