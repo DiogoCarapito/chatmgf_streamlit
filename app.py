@@ -56,7 +56,7 @@ if 'created_at' not in st.session_state:
     st.session_state['created_at'] = ''
 
 # Add a text input and submit button so the user can enter a question
-st.session_state['user_input'] = st.text_input('', st.session_state['user_input'])
+st.session_state['user_input'] = st.text_input('Pergunta-me algo', st.session_state['user_input'], label_visibility='collapsed')
 
 #st.write(':robot_face: **ChatMGF**:blue[ Olá, sou o ChatMGF. Pergunta-me algo]')
 
